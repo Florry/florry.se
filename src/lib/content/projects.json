@@ -1,0 +1,390 @@
+[
+    {
+        "id": "github",
+        "name": "Github code",
+        "from": "2013",
+        "to": "current",
+        "link": "http://www.github.com/florry",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "github.jpg"
+        }
+    },
+    {
+        "id": "freaky-green-sunshine",
+        "name": "Freaky Green Sunshine",
+        "from": "2010",
+        "to": "current",
+        "classes": [
+            "wide"
+        ],
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "fgs.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "fgs2.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "fgs3.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "fgs4.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "fgs5.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "fgs6.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "fgs7.jpg"
+            }
+        ],
+        "content": [
+            "Freaky green sunshine is a story driven 3d sidescroller/platformer. This is my first real game project. All work of my life-long hobby of modding has lead to this. Beginning development in 2010, it has grown into a love project. The game has been a one man show from the get-go under the <a href=\"http://grimarchstudios.nu\" target=\"_blank\">GrimArch Studios</a> name. The game is 12 hours long, has over 30 000 lines of code and is built with over 3400 assets.",
+            null
+        ],
+        "tags": [
+            "udk",
+            "unrealscript",
+            "gimp",
+            "photoshop",
+            "blender",
+            "3dsmax"
+        ]
+    },
+    {
+        "id": "metalljakten",
+        "name": "Metalljakten",
+        "from": "2017",
+        "to": "",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "metalljakten.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "metalljakten2.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "metalljakten3.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "metalljakten4.jpg"
+            }
+        ],
+        "content": [
+            "A simple arcade cabinet game, in the vein of boulder dash, I developed at Frost Experience AB for Tekniska Museet's mine in Stockholm. It is an extension of the <a href=\"/project/kopparjakten\">Kopparjakten</a> game with some extra features such as a dynamite and progression accross multiple levels. If you visit Tekniska Museet, you can check it out. The design was done by Frans Carlqvist."
+        ],
+        "tags": [
+            "java",
+            "lwjgl"
+        ]
+    },
+    {
+        "id": "kopparjakten",
+        "name": "Kopparjakten",
+        "from": "2016",
+        "to": "",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "koppar.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "koppar2.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "koppar3.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "koppar4.jpg"
+            }
+        ],
+        "content": [
+            "A simple arcade cabinet game, in the vein of boulder dash, I developed at Frost Experience AB for Falu Gruva in Falun. If you visit Falu Gruva's museum, you can check it out. The design was done by Daniel Bjugård."
+        ],
+        "tags": [
+            "java",
+            "lwjgl"
+        ]
+    },
+    {
+        "id": "just-burgers",
+        "name": "Just Burgers",
+        "from": "2009",
+        "to": "2017",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "just-burgers.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "jb3.jpg",
+                "caption": "Just Burgers - Javascript w/ an editor"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "jb2.jpg",
+                "caption": "Just BBQ - Java Swing"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "jb4.jpg",
+                "caption": "Just Pizza - LWJGL"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "jb1.jpg"
+            }
+        ],
+        "content": [
+            "This is a collection of small games I have developed using a set of sprites I made back in 2009. The first implementation was made in 2009 using cryengine 2's flowgraph scripting. In 2013 while learning javascript I made a version with a level editor using javascript. The same year I made a version in java (dubbed just bbq) focusing on lighting. In 2016 I made yet another version in java using lwjgl (dubbed just pizza) and focused mostly on lighting and efficient world rendering. <br/><br/>Github code: <a href=\"https://github.com/Florry/Just-Pizza\" target=\"_blank\">Just Pizza</a> | <a href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a>"
+        ],
+        "tags": [
+            "java",
+            "lwjgl",
+            "javascript",
+            "flowgraph",
+            "cryengine 2"
+        ]
+    },
+    {
+        "id": "lwjgl",
+        "name": "Various LWJGL works",
+        "from": "2013",
+        "to": "2017",
+        "classes": [
+            "wide"
+        ],
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "lwjgl.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "lwjgl2.jpg",
+                "caption": "3D terrain"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "metalljakten2.jpg",
+                "caption": "Metalljakten"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "lwjgl4.jpg",
+                "caption": "Snake"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "jb4.jpg",
+                "caption": "Just Pizza"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "koppar3.jpg",
+                "caption": "Kopparjakten"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "lwjgl3.jpg",
+                "caption": "Lighting shader"
+            }
+        ],
+        "content": [
+            "Both <a href=\"/project/kopparjakten\">kopparjakten</a> and <a href=\"/project/metalljakten\">metalljakten</a> were made using lwjgl as well a version of the <a href=\"/project/just-burgers\">just burgers</a> game. Other things I have done includes snake, 3d terrains and shaders. Advanced 3d graphics with LWJGL is something I'm still learning.<br/> <br/>Github code: <a href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a> | <a href=\"https://github.com/Florry/LWJGL-Engine\" target=\"_blank\">Simple 2D engine</a> | <a href=\"https://github.com/Florry/Snake-Java-OpenGL\" target=\"_blank\">Snake</a>",
+            null
+        ],
+        "tags": [
+            "java",
+            "lwjgl"
+        ]
+    },
+    {
+        "id": "neo-axis",
+        "name": "Neoaxis Sidescroller",
+        "from": "2009",
+        "to": "2010",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "neoaxis.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "neoaxis2.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "neoaxis3.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "neoaxis4.jpg"
+            }
+        ],
+        "content": [
+            "While not the pretties of sights; this was my first game project as a part of a project cource of upper secondary school. The game had to run on old, non-gaming, laptop hardware. This was a precursor to <a href=\"/project/freaky-green-sunshine\">freaky green sunshine</a>. "
+        ],
+        "tags": [
+            "neoaxis engine",
+            "c#",
+            "gimp",
+            "blender"
+        ]
+    },
+    {
+        "id": "red-mesa-ep2",
+        "name": "Red Mesa - Episode 2",
+        "from": "2009",
+        "to": "2010",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "redmesaep2.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "redmesaep22.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesaep23.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesaep24.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesaep25.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesaep26.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesaep27.jpg"
+            }
+        ],
+        "content": [
+            "This is a sequel to my 2009 crysis mod <a href=\"/project/red-mesa\">red mesa</a>. I worked on it for about a year before it was put on hold indefinitely to focus on freaky green sunshine. I might come back to this project in the future, although as more time goes by the slimmer the chances.",
+            null
+        ],
+        "tags": [
+            "cryengine 2",
+            "flowgraph",
+            "photoshop",
+            "3dsmax"
+        ]
+    },
+    {
+        "id": "red-mesa",
+        "name": "Red Mesa",
+        "from": "2007",
+        "to": "2009",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "redmesa.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "redmesa2.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesa3.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesa4.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesa5.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesa6.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "redmesa7.jpg",
+                "caption": "Some magazine coverage."
+            }
+        ],
+        "content": [
+            "A half-life inspired mod for crysis. This was the first project I used the \"modern\" pipeline of normal maps, specular etc.  It was mildly successful and has been featured in a number of gaming magazines, even spawning its own critique thread on the facepunch forums 😊",
+            null
+        ],
+        "tags": [
+            "cryengine 2",
+            "flowgraph",
+            "photoshop",
+            "3dsmax"
+        ]
+    },
+    {
+        "id": "ce3",
+        "name": "Cryengine 3 environments",
+        "from": "2012",
+        "to": "2013",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "ce3.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "ce32.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "ce33.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "ce34.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "ce35.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "ce36.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "ce37.jpg"
+            }
+        ],
+        "content": [
+            "Some cryengine 3 scenes. One inspired by grim fandango, the other one just a room. Both focus on lighting. ",
+            null
+        ],
+        "tags": [
+            "cryengine 3",
+            "crysis 2"
+        ]
+    }
+]
