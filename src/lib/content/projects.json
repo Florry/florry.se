@@ -147,14 +147,10 @@
                 "type": "IMAGE",
                 "filename": "jb4.jpg",
                 "caption": "Just Pizza - LWJGL"
-            },
-            {
-                "type": "IMAGE",
-                "filename": "jb1.jpg"
             }
         ],
         "content": [
-            "This is a collection of small games I have developed using a set of sprites I made back in 2009. The first implementation was made in 2009 using cryengine 2's flowgraph scripting. In 2013 while learning javascript I made a version with a level editor using javascript. The same year I made a version in java (dubbed just bbq) focusing on lighting. In 2016 I made yet another version in java using lwjgl (dubbed just pizza) and focused mostly on lighting and efficient world rendering. <br/><br/>Github code: <a href=\"https://github.com/Florry/Just-Pizza\" target=\"_blank\">Just Pizza</a> | <a href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a>"
+            "This is a collection of small games I have developed using a set of sprites I made back in 2009. The first implementation was made in 2009 using cryengine 2's flowgraph scripting. In 2013 while learning javascript I made a version with a level editor using javascript. The same year I made a version in java (dubbed just bbq) focusing on lighting. In 2016 I made yet another version in java using lwjgl (dubbed just pizza) and focused mostly on lighting and efficient world rendering. <br/><br/>Github code: <a href=\"https://github.com/Florry/Just-Pizza\" target=\"_blank\">Just Pizza</a> | <a href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a> | <a href=\"https://www.youtube.com/watch?v=_kVMhy-RHtk\" target=\"_blank\">Dynamic shadows video</a>"
         ],
         "tags": [
             "java",

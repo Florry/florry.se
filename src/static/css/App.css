@@ -5,7 +5,6 @@
 
 a {
     color: #999;
-    /* text-decoration: inherit; */
     text-decoration-color: #bbb;
 }
 
@@ -19,9 +18,9 @@ a:hover {
 
 .content {
     transition: opacity 0.5s ease-in-out;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     width: 100%;
-    max-width: 1200px;
+    max-width: 1186px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,7 +30,7 @@ a:hover {
     left: 0;
     position: fixed;
     background-color: #fff !important;
-    height: 60px;
+    height: 50px;
     width: 100%;
     z-index: 100;
 }
@@ -39,25 +38,29 @@ a:hover {
 .header {
     width: 100%;
     max-width: 1200px;
-    height: 60px;
-    line-height: 60px;
+    height: 50px;
+    line-height: 50px;
     font-size: 25px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .name {
-    font-size: 25px;
+    border-right: 1px solid #eee;
+    font-size: 20px;
 }
 
 .header .name {
     padding-left: 10px;
     float: left;
+    flex: 1 0 50%;
 }
 
 .header .menu {
     padding-right: 10px;
     float: right;
+    font-size: 20px;
 }
 
 .header .menu .btn.first {
@@ -66,33 +69,20 @@ a:hover {
 
 .header .menu .btn {
     padding-left: 10px;
-    /* background-color: #eee; */
-}
-
-.header .menu .btn.selected {
-    /* background-color: #eee; */
-    /* border: 1px solid #eee;
-    border-bottom: none; */
-    border-bottom: 2px solid #bbb;
-    /* text-decoration: underline; */
 }
 
 .showcase {
-    margin-top: 90px;
+    margin-top: 50px;
     width: 100%;
     display: flex;
-    /* justify-content: center; */
     flex-wrap: wrap;
     flex-direction: row;
     flex-flow: row wrap;
     align-content: flex-end;
-    padding-left: 10px;
 }
 
 .image-box {
     flex: 1 0 33%;
-    /* max-width: 400px;
-    max-height: 266.666px; */
     max-width: 394px;
     max-height: 294px;
     min-width: 200px;
@@ -123,7 +113,7 @@ a:hover {
 
 .container {
     padding: 12px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .project--image-box:nth-child(1) {
@@ -148,8 +138,7 @@ a:hover {
     margin-right: auto;
 }
 
-.project--image-box .iframe-video,
-.project--image-box img {
+.project--image-box .iframe-video, .project--image-box img {
     display: inline;
     max-width: 100%;
     object-fit: cover;
@@ -161,7 +150,6 @@ a:hover {
     opacity: 0;
     color: #000;
     font-size: 30px;
-    /* text-align: right; */
     max-width: 337px;
 }
 
@@ -198,8 +186,7 @@ a:hover {
     display: block;
 }
 
-.small-right,
-.small-left {
+.small-right, .small-left {
     margin-top: 5px;
 }
 
@@ -211,14 +198,12 @@ a:hover {
     order: 4;
 }
 
-.small-right .iframe-video,
-.small-left .iframe-video {
+.small-right .iframe-video, .small-left .iframe-video {
     margin-top: -5px;
     display: block;
 }
 
-.small-right img,
-.small-left img {
+.small-right img, .small-left img {
     margin-top: -5px;
 }
 
@@ -246,7 +231,6 @@ a:hover {
 }
 
 .p--project span:nth-child(2) {
-    /* float: right; */
     text-align: right;
 }
 
@@ -267,7 +251,6 @@ p.right {
 }
 
 .cv {
-    /* background-color: white; */
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -275,19 +258,14 @@ p.right {
     flex-wrap: wrap;
     flex-flow: row wrap;
     align-content: flex-start;
-    /* max-width: 1200px; */
     margin-left: auto;
     margin-right: auto;
 }
 
 .cv--item {
-    /* border: 1px solid #eee; */
-    padding-left: 10px;
-    padding-right: 10px;
-    /* display: block; */
-    min-width: 568px;
-    max-width: 568px;
-    flex-basis: 50%;
+    flex-basis: 100%;
+    word-break: auto;
+    line-break: auto;
 }
 
 .cv-img {
@@ -295,6 +273,18 @@ p.right {
     height: 500px;
     object-fit: scale-down;
     background: #000;
+}
+
+.cv--image {
+    max-width: 50%;
+}
+
+.cv--contact-details {
+    word-break: normal;
+    line-break: auto;
+    max-width: 49%;
+    padding-right: 0px;
+    margin-right: 1%;
 }
 
 hr {
@@ -307,5 +297,59 @@ hr {
 }
 
 .footer {
-    padding-left: 10px;
+    padding-left: 5px;
+}
+
+.header .menu .btn.selected {
+    border-bottom: none;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    .cv--image {
+        max-width: 100%;
+    }
+    .cv--contact-details {
+        max-width: 100%;
+        padding-right: 0px;
+    }
+    .p--project span {
+        display: inline-block;
+        width: 100%;
+        flex: 1 0 100%;
+    }
+    .p--project span.highlight {
+        display: inline-block;
+        width: 100%;
+        flex: 1 0 100%;
+        margin-top: 10px;
+    }
+    .project--name {
+        text-shadow: 1px 1px 2px black;
+        color: #fff;
+        opacity: 1;
+    }
+    .project--name .highlight {
+        text-shadow: 1px 1px 2px black;
+        color: #fff;
+        opacity: 1;
+    }
+    .image-box img:hover {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .name .highlight {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 324px) {
+    .name .short-name {
+        display: block;
+    }
+    .name .full-name {
+        display: none;
+    }
 }

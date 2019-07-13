@@ -30,7 +30,8 @@ export default class App extends React.Component {
                 <div className="header-bg">
                     <div className="header">
                         <div className="name">
-                            <a href="/">Viktor Söderström<span className="highlight"> [Florry.se]</span></a>
+                            <a href="/" className="full-name">Viktor Söderström<span className="highlight"> [Florry.se]</span></a>
+                            <a href="/" className="short-name" hidden>V.Söderström</a>
                         </div>
                         <div className="menu">
                             <a href="/"><span className={`btn first ${!this.pageIsActive("/cv") ? "selected" : ""}`}>Portfolio</span></a>

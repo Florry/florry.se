@@ -95,13 +95,21 @@ export default class CV extends React.Component {
 
                     </div>
 
-                    <div className="cv--item">
+                    <div className="cv--item cv--image">
                         <img src={
                             // @ts-ignore
                             require("../../static/img.jpg")
                         } className="cv-img"
                             alt="Viktor Söderström" />
 
+                    </div>
+
+                    <div className="cv--item">
+                        <h2>PROGRAMMING AND SCRIPTING SKILLS</h2>
+                        <p className="highlight">{this.programmingSkills.join(", ")}</p>
+
+                        <h2>COMPUTER SOFTWARE SKILLS</h2>
+                        <p className="highlight">{this.computerSoftwareSkills.join(", ")}</p>
                     </div>
 
                     <div className="cv--item">
@@ -129,14 +137,6 @@ export default class CV extends React.Component {
                             <p>Planing and painting Säby school over a period of 3 weeks.</p>
                         </div>
 
-                    </div>
-
-                    <div className="cv--item">
-                        <h2>PROGRAMMING AND SCRIPTING SKILLS</h2>
-                        <p className="highlight">{this.programmingSkills.join(", ")}</p>
-
-                        <h2>COMPUTER SOFTWARE SKILLS</h2>
-                        <p className="highlight">{this.computerSoftwareSkills.join(", ")}</p>
                     </div>
 
                     <div className="cv--item">
