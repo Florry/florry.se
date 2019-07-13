@@ -324,6 +324,15 @@ hr {
         flex: 1 0 100%;
         margin-top: 10px;
     }
+}
+
+@media only screen and (max-width: 450px) {
+    .name .highlight {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 415px) {
     .project--name {
         text-shadow: 1px 1px 2px black;
         color: #fff;
@@ -336,12 +345,6 @@ hr {
     }
     .image-box img:hover {
         opacity: 1;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .name .highlight {
-        display: none;
     }
 }
 
