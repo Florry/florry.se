@@ -118,7 +118,7 @@ export default class CV extends React.Component {
                         <div>
                             <p><b>Frost Experience AB</b> - Stockholm</p>
                             <p className="highlight">March 2015 – Current</p>
-                            <p>Software developer, full stack. Java, vertx, node js, angular js/angular, react, marko js, lwjgl and more.</p>
+                            <p>Software developer, full stack. Java, Javascript, Typescript, PHP, vertx, node js, angular js/angular, react, marko js, lwjgl and more.</p>
                         </div>
 
                         <hr />

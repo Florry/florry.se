@@ -49,7 +49,7 @@
             }
         ],
         "content": [
-            "Freaky green sunshine is a story driven 3d sidescroller/platformer. This is my first real game project. All work of my life-long hobby of modding has lead to this. Beginning development in 2010, it has grown into a love project. The game has been a one man show from the get-go under the <a href=\"http://grimarchstudios.nu\" target=\"_blank\">GrimArch Studios</a> name. The game is 12 hours long, has over 30 000 lines of code and is built with over 3400 assets.",
+            "Freaky green sunshine is a story driven 3d sidescroller/platformer. This is my first real game project. All work of my life-long hobby of modding has lead to this. Beginning development in 2010, it has grown into a love project. The game has been a one man show from the get-go under the <a target=\"_blank\" href=\"http://grimarchstudios.nu\" target=\"_blank\">GrimArch Studios</a> name. The game is 12 hours long, has over 30 000 lines of code and is built with over 3400 assets.",
             null
         ],
         "tags": [
@@ -59,6 +59,100 @@
             "photoshop",
             "blender",
             "3dsmax"
+        ]
+    },
+    {
+        "id": "robin",
+        "name": "Robin robot game",
+        "from": "2019",
+        "to": "",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "robin1.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "robin2.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "robin3.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "robin4.jpg"
+            }
+        ],
+        "content": [
+            "A simple top down sprite based game I developed at Frost Experience AB for Ericsson for Tekniska Museet's robot exhibition. It features a rather large open world and required some clever engineering to work. The game is played on a touch screen. The overall design was done by Joel Söderström and I did sprite work."
+        ],
+        "tags": [
+            "javascript",
+            "react",
+            "webgl",
+            "pixi.js"
+        ]
+    },
+    {
+        "id": "hallbarhetshjulet",
+        "name": "Hållbarhetshjulet",
+        "from": "2018",
+        "to": "",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "hallbarhetshjulet1.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "hallbarhetshjulet2.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "hallbarhetshjulet3.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "hallbarhetshjulet4.jpg"
+            }
+        ],
+        "content": [
+            "A \"chocolate wheel\" type installation based on UN's <a target=\"_blank\" href=\"https://www.un.org/sustainabledevelopment/sustainable-development-goals/\">Sustainable Development Goals</a> (<a target=\"_blank\" href=\"https://www.globalamalen.se/\">The swedish version the wheel is based on</a>) I developed at Frost Experience AB for Tekniska Museet. You spin the wheel and as it stops on one of the 17 goals it transitions into an info screen with a simple quiz question. It is currently located in the lobby at Tekniska Museet. The design was done by Joel Söderström based on UN's design guidelines. <br/><br/><a target=\"_blank\" href=\"https://www.instagram.com/p/BpsJNNSCHRf/\">Hållbarhetshjulet in action</a>"
+        ],
+        "tags": [
+            "java",
+            "lwjgl"
+        ]
+    },
+    {
+        "id": "play-beyond-play-quiz",
+        "name": "Quiz for Play Beyond Play",
+        "from": "2018",
+        "to": "",
+        "coverMedia": {
+            "type": "IMAGE",
+            "filename": "play-beyond-play-quiz1.jpg"
+        },
+        "media": [
+            {
+                "type": "IMAGE",
+                "filename": "play-beyond-play-quiz2.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "play-beyond-play-quiz3.jpg"
+            },
+            {
+                "type": "IMAGE",
+                "filename": "play-beyond-play-quiz4.jpg"
+            }
+        ],
+        "content": [
+            "A quiz as a part of the Play Beyond Play exhibition I developed at Frost Experience AB for Tekniska Museet. The quiz is played on a touch screen and features numerous types of questions. I.e. morphing images, drag and drop and multiple choice questions. The design was done by Joel Söderström based on the style guide for the play beyond play exhibition"
+        ],
+        "tags": [
+            "React"
         ]
     },
     {
@@ -85,7 +179,7 @@
             }
         ],
         "content": [
-            "A simple arcade cabinet game, in the vein of boulder dash, I developed at Frost Experience AB for Tekniska Museet's mine in Stockholm. It is an extension of the <a href=\"/project/kopparjakten\">Kopparjakten</a> game with some extra features such as a dynamite and progression accross multiple levels. If you visit Tekniska Museet, you can check it out. The design was done by Frans Carlqvist."
+            "A simple arcade cabinet game, in the vein of boulder dash, I developed at Frost Experience AB for Tekniska Museet's mine in Stockholm. It is an extension of the <a target=\"_blank\" href=\"/project/kopparjakten\">Kopparjakten</a> game with some extra features such as a dynamite and progression accross multiple levels. If you visit Tekniska Museet, you can check it out. The design was done by Frans Carlqvist."
         ],
         "tags": [
             "java",
@@ -127,7 +221,7 @@
         "id": "just-burgers",
         "name": "Just Burgers",
         "from": "2009",
-        "to": "2017",
+        "to": "2019",
         "coverMedia": {
             "type": "IMAGE",
             "filename": "just-burgers.jpg"
@@ -150,7 +244,7 @@
             }
         ],
         "content": [
-            "This is a collection of small games I have developed using a set of sprites I made back in 2009. The first implementation was made in 2009 using cryengine 2's flowgraph scripting. In 2013 while learning javascript I made a version with a level editor using javascript. The same year I made a version in java (dubbed just bbq) focusing on lighting. In 2016 I made yet another version in java using lwjgl (dubbed just pizza) and focused mostly on lighting and efficient world rendering. <br/><br/>Github code: <a href=\"https://github.com/Florry/Just-Pizza\" target=\"_blank\">Just Pizza</a> | <a href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a> | <a href=\"https://www.youtube.com/watch?v=_kVMhy-RHtk\" target=\"_blank\">Dynamic shadows video</a>"
+            "This is a collection of small games I have developed using a set of sprites I made back in 2009. The first implementation was made in 2009 using cryengine 2's flowgraph scripting. In 2013 while learning javascript I made a version with a level editor using javascript. The same year I made a version in java (dubbed just bbq) focusing on lighting. In 2016 I made yet another version in java using lwjgl (dubbed just pizza) and focused mostly on lighting and efficient world rendering. In 2019 that one got updated with dynamic shadows. <br/><br/>Github code: <a target=\"_blank\" href=\"https://github.com/Florry/Just-Pizza\" target=\"_blank\">Just Pizza</a> | <a target=\"_blank\" href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a><br/>Video: <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=_kVMhy-RHtk\" target=\"_blank\">Dynamic shadows</a>"
         ],
         "tags": [
             "java",
@@ -164,7 +258,7 @@
         "id": "lwjgl",
         "name": "Various LWJGL works",
         "from": "2013",
-        "to": "2017",
+        "to": "2019",
         "classes": [
             "wide"
         ],
@@ -176,7 +270,7 @@
             {
                 "type": "IMAGE",
                 "filename": "lwjgl2.jpg",
-                "caption": "3D terrain"
+                "caption": "Dynamic shadows in Just Pizza"
             },
             {
                 "type": "IMAGE",
@@ -201,11 +295,11 @@
             {
                 "type": "IMAGE",
                 "filename": "lwjgl3.jpg",
-                "caption": "Lighting shader"
+                "caption": "Hållbarhetshjulet"
             }
         ],
         "content": [
-            "Both <a href=\"/project/kopparjakten\">kopparjakten</a> and <a href=\"/project/metalljakten\">metalljakten</a> were made using lwjgl as well a version of the <a href=\"/project/just-burgers\">just burgers</a> game. Other things I have done includes snake, 3d terrains and shaders. Advanced 3d graphics with LWJGL is something I'm still learning.<br/> <br/>Github code: <a href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a> | <a href=\"https://github.com/Florry/LWJGL-Engine\" target=\"_blank\">Simple 2D engine</a> | <a href=\"https://github.com/Florry/Snake-Java-OpenGL\" target=\"_blank\">Snake</a>",
+            "<a target=\"_blank\" href=\"/project/kopparjakten\">Kopparjakten</a>, <a target=\"_blank\" href=\"/project/metalljakten\">Metalljakten</a> and <a target=\"_blank\" href=\"/project/hallbarhetshjulet\">Hållbarhetshjulet</a> were all made using my lwjgl engine as well a version of the <a target=\"_blank\" href=\"/project/just-burgers\">just burgers</a> game. Other things I have done includes snake, 3d terrains and shaders. Advanced 3d graphics with LWJGL is something I'm still learning, however, have much experience with via higher level software such as UDK with <a href='/project/freaky-green-sunshine'>Freaky Green Sunshine</a>.<br/> <br/>Github code: <a target=\"_blank\" href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a> | <a target=\"_blank\" href=\"https://github.com/Florry/LWJGL-Engine\" target=\"_blank\">Simple 2D engine</a> | <a target=\"_blank\" href=\"https://github.com/Florry/Snake-Java-OpenGL\" target=\"_blank\">Snake</a>",
             null
         ],
         "tags": [
@@ -237,7 +331,7 @@
             }
         ],
         "content": [
-            "While not the pretties of sights; this was my first game project as a part of a project cource of upper secondary school. The game had to run on old, non-gaming, laptop hardware. This was a precursor to <a href=\"/project/freaky-green-sunshine\">freaky green sunshine</a>. "
+            "While not the pretties of sights; this was my first game project as a part of a project cource of upper secondary school. The game had to run on old, non-gaming, laptop hardware. This was a precursor to <a target=\"_blank\" href=\"/project/freaky-green-sunshine\">Freaky Green Sunshine</a>. "
         ],
         "tags": [
             "neoaxis engine",
@@ -282,7 +376,7 @@
             }
         ],
         "content": [
-            "This is a sequel to my 2009 crysis mod <a href=\"/project/red-mesa\">red mesa</a>. I worked on it for about a year before it was put on hold indefinitely to focus on freaky green sunshine. I might come back to this project in the future, although as more time goes by the slimmer the chances.",
+            "This is a sequel to my 2009 crysis mod <a target=\"_blank\" href=\"/project/red-mesa\">red mesa</a>. I worked on it for about a year before it was put on hold indefinitely to focus on freaky green sunshine. I might come back to this project in the future, although as more time goes by the slimmer the chances.",
             null
         ],
         "tags": [
@@ -329,7 +423,7 @@
             }
         ],
         "content": [
-            "A half-life inspired mod for crysis. This was the first project I used the \"modern\" pipeline of normal maps, specular etc.  It was mildly successful and has been featured in a number of gaming magazines, even spawning its own critique thread on the facepunch forums 😊",
+            "A half-life inspired mod for crysis. This was the first project I used the \"modern\" pipeline of normal maps, specular etc.  It was mildly successful and has been featured in a number of gaming magazines.",
             null
         ],
         "tags": [
@@ -337,50 +431,6 @@
             "flowgraph",
             "photoshop",
             "3dsmax"
-        ]
-    },
-    {
-        "id": "ce3",
-        "name": "Cryengine 3 environments",
-        "from": "2012",
-        "to": "2013",
-        "coverMedia": {
-            "type": "IMAGE",
-            "filename": "ce3.jpg"
-        },
-        "media": [
-            {
-                "type": "IMAGE",
-                "filename": "ce32.jpg"
-            },
-            {
-                "type": "IMAGE",
-                "filename": "ce33.jpg"
-            },
-            {
-                "type": "IMAGE",
-                "filename": "ce34.jpg"
-            },
-            {
-                "type": "IMAGE",
-                "filename": "ce35.jpg"
-            },
-            {
-                "type": "IMAGE",
-                "filename": "ce36.jpg"
-            },
-            {
-                "type": "IMAGE",
-                "filename": "ce37.jpg"
-            }
-        ],
-        "content": [
-            "Some cryengine 3 scenes. One inspired by grim fandango, the other one just a room. Both focus on lighting. ",
-            null
-        ],
-        "tags": [
-            "cryengine 3",
-            "crysis 2"
         ]
     }
 ]
