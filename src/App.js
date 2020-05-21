@@ -1,6 +1,6 @@
 import React from "react";
 import Portfolio from "./lib/pages/Portfolio";
-import CV from "./lib/pages/CV";
+import About from "./lib/pages/About";
 import Project from "./lib/pages/Project";
 
 // @ts-ignore
@@ -12,20 +12,15 @@ export default class App extends React.Component {
 
     constructor(props) {
         super(props);
-        this.fadein = 0;
-
-        setTimeout(() => {
-            this.fadein = 1;
-            this.forceUpdate();
-        }, 100);
 
         const lastIndexOfSlash = window.location.pathname.lastIndexOf("/");
+
         this.page = window.location.pathname.substring(0, lastIndexOfSlash > 0 ? lastIndexOfSlash : window.location.pathname.length);
     }
 
     render() {
         return (
-            <div className="App" style={{ opacity: this.fadein }}>
+            <div className="App">
 
                 <div className="header-bg">
                     <div className="header">
@@ -34,13 +29,13 @@ export default class App extends React.Component {
                             <a href="/" className="short-name" hidden>V.Söderström</a>
                         </div>
                         <div className="menu">
-                            <a href="/"><span className={`btn first ${!this.pageIsActive("/cv") ? "selected" : ""}`}>Portfolio</span></a>
-                            <a href="/cv"><span className={`btn ${this.pageIsActive("/cv") ? "selected" : ""}`}>CV</span></a>
+                            <a href="/"><span className={`btn first ${!this.pageIsActive("/about") ? "selected" : ""}`}>Portfolio</span></a>
+                            <a href="/about"><span className={`btn ${this.pageIsActive("/about") ? "selected" : ""}`}>About</span></a>
                         </div>
                     </div>
                 </div>
 
-                <div className="content" style={{ opacity: this.fadein }}>
+                <div className="content" >
                     {this.getActivePage()}
                     <br />
                     <div className="footer">
@@ -56,8 +51,8 @@ export default class App extends React.Component {
 
     getActivePage() {
         switch (this.page) {
-            case "/cv":
-                return <CV />;
+            case "/about":
+                return <About />;
             case "/project":
                 return <Project projects={projects} />;
             default:
