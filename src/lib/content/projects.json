@@ -4,6 +4,7 @@
         "name": "Github code",
         "from": "2013",
         "to": "current",
+        "noFade": true,
         "link": "http://www.github.com/florry",
         "coverMedia": {
             "type": "IMAGE",
@@ -118,11 +119,12 @@
             }
         ],
         "content": [
-            "A \"chocolate wheel\" type installation based on UN's <a target=\"_blank\" href=\"https://www.un.org/sustainabledevelopment/sustainable-development-goals/\">Sustainable Development Goals</a> (<a target=\"_blank\" href=\"https://www.globalamalen.se/\">The swedish version the wheel is based on</a>) I developed at Frost Experience AB for Tekniska Museet. You spin the wheel and as it stops on one of the 17 goals it transitions into an info screen with a simple quiz question. It is currently located in the lobby at Tekniska Museet. The design was done by Joel Söderström based on UN's design guidelines. <br/><br/><a target=\"_blank\" href=\"https://www.instagram.com/p/BpsJNNSCHRf/\">Hållbarhetshjulet in action</a>"
+            "A \"chocolate wheel\" type installation based on UN's <a target=\"_blank\" href=\"https://www.un.org/sustainabledevelopment/sustainable-development-goals/\">Sustainable Development Goals</a> (<a target=\"_blank\" href=\"https://www.globalamalen.se/\">The swedish version the wheel is based on</a>) I developed at Frost Experience AB for Tekniska Museet. You spin the wheel and as it stops on one of the 17 goals it transitions into an info screen with a simple quiz question. It is currently located in the lobby at Tekniska Museet. Hållbarhetshjulet runs on my custom LWGJL game engine which proved more than capable of running ui based applications. The design was done by Joel Söderström based on UN's design guidelines. <ul><li><a target=\"_blank\" href=\"https://www.instagram.com/p/BpsJNNSCHRf/\">Hållbarhetshjulet in action</a></li></ul>"
         ],
         "tags": [
             "java",
-            "lwjgl"
+            "lwjgl",
+            "opengl"
         ]
     },
     {
@@ -179,11 +181,12 @@
             }
         ],
         "content": [
-            "A simple arcade cabinet game, in the vein of boulder dash, I developed at Frost Experience AB for Tekniska Museet's mine in Stockholm. It is an extension of the <a target=\"_blank\" href=\"/project/kopparjakten\">Kopparjakten</a> game with some extra features such as a dynamite and progression accross multiple levels. If you visit Tekniska Museet, you can check it out. The design was done by Frans Carlqvist."
+            "A simple arcade cabinet game, in the vein of boulder dash, I developed at Frost Experience AB for Tekniska Museet's mine in Stockholm. It is an extension of the <a target=\"_blank\" href=\"/project/kopparjakten\">Kopparjakten</a> game with some extra features such as a dynamite and progression accross multiple levels. If you visit Tekniska Museet, you can check it out. The game runs on my custom LWGJL game engine. The design was done by Frans Carlqvist."
         ],
         "tags": [
             "java",
-            "lwjgl"
+            "lwjgl",
+            "opengl"
         ]
     },
     {
@@ -210,11 +213,12 @@
             }
         ],
         "content": [
-            "A simple arcade cabinet game, in the vein of boulder dash, I developed at Frost Experience AB for Falu Gruva in Falun. If you visit Falu Gruva's museum, you can check it out. The design was done by Daniel Bjugård."
+            "A simple arcade cabinet game, in the vein of boulder dash, I developed at Frost Experience AB for Falu Gruva in Falun. If you visit Falu Gruva's museum, you can check it out. The game runs on my custom LWGJL game engine. The design was done by Daniel Bjugård."
         ],
         "tags": [
             "java",
-            "lwjgl"
+            "lwjgl",
+            "opengl"
         ]
     },
     {
@@ -244,7 +248,7 @@
             }
         ],
         "content": [
-            "This is a collection of small games I have developed using a set of sprites I made back in 2009. The first implementation was made in 2009 using cryengine 2's flowgraph scripting. In 2013 while learning javascript I made a version with a level editor using javascript. The same year I made a version in java (dubbed just bbq) focusing on lighting. In 2016 I made yet another version in java using lwjgl (dubbed just pizza) and focused mostly on lighting and efficient world rendering. In 2019 that one got updated with dynamic shadows. <br/><br/>Github code: <a target=\"_blank\" href=\"https://github.com/Florry/Just-Pizza\" target=\"_blank\">Just Pizza</a> | <a target=\"_blank\" href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a><br/>Video: <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=_kVMhy-RHtk\" target=\"_blank\">Dynamic shadows</a>"
+            "This is a collection of small games I have developed using a set of sprites I made back in 2009. The first implementation was made in 2009 using cryengine 2's flowgraph scripting. In 2013 while learning javascript I made a version with a level editor using javascript. The same year I made a version in java (dubbed just bbq) focusing on lighting. In 2016 I made yet another version in java using lwjgl (dubbed just pizza) and focused mostly on lighting and efficient world rendering. In 2019 that one got updated with dynamic shadows. <ul><li><a target=\"_blank\" href=\"https://github.com/Florry/Just-Pizza\" target=\"_blank\">Just Pizza code</a></li> <li><a target=\"_blank\" href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ code</a></li> <li><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=_kVMhy-RHtk\" target=\"_blank\">Dynamic shadows video</a></li></ul>"
         ],
         "tags": [
             "java",
@@ -299,7 +303,7 @@
             }
         ],
         "content": [
-            "<a target=\"_blank\" href=\"/project/kopparjakten\">Kopparjakten</a>, <a target=\"_blank\" href=\"/project/metalljakten\">Metalljakten</a> and <a target=\"_blank\" href=\"/project/hallbarhetshjulet\">Hållbarhetshjulet</a> were all made using my lwjgl engine as well a version of the <a target=\"_blank\" href=\"/project/just-burgers\">just burgers</a> game. Other things I have done includes snake, 3d terrains and shaders. Advanced 3d graphics with LWJGL is something I'm still learning, however, have much experience with via higher level software such as UDK with <a href='/project/freaky-green-sunshine'>Freaky Green Sunshine</a>.<br/> <br/>Github code: <a target=\"_blank\" href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ</a> | <a target=\"_blank\" href=\"https://github.com/Florry/LWJGL-Engine\" target=\"_blank\">Simple 2D engine</a> | <a target=\"_blank\" href=\"https://github.com/Florry/Snake-Java-OpenGL\" target=\"_blank\">Snake</a>",
+            "<a target=\"_blank\" href=\"/project/kopparjakten\">Kopparjakten</a>, <a target=\"_blank\" href=\"/project/metalljakten\">Metalljakten</a> and <a target=\"_blank\" href=\"/project/hallbarhetshjulet\">Hållbarhetshjulet</a> were all made using my lwjgl engine as well a version of the <a target=\"_blank\" href=\"/project/just-burgers\">just burgers</a> game. Other things I have done includes snake, 3d terrains and shaders. Advanced 3d graphics with LWJGL is something I'm still learning, however, have much experience with via higher level software such as UDK with <a href='/project/freaky-green-sunshine'>Freaky Green Sunshine</a>.<ul><li><a target=\"_blank\" href=\"https://github.com/Florry/justBBQ\" target=\"_blank\">Just BBQ code</a></li><li><a target=\"_blank\" href=\"https://github.com/Florry/LWJGL-Engine\" target=\"_blank\">Simple 2D engine code</a></li><li><a target=\"_blank\" href=\"https://github.com/Florry/Snake-Java-OpenGL\" target=\"_blank\">Snake code</a></li></ul>",
             null
         ],
         "tags": [

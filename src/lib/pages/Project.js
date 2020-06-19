@@ -27,14 +27,9 @@ export default class Project extends React.Component {
     render() {
         return (
             <div className="container">
-                <div>
-                    <div>
-                        <div id="description-text">
-                            {this.currentProject.name} <span className="highlight">[{this.currentProject.from} {this.currentProject.to ? " - " + this.currentProject.to : ""}]</span>
-                        </div>
-                    </div>
+                <div className="description-text">
+                    {this.currentProject.name} <span className="highlight">[{this.currentProject.from} {this.currentProject.to ? " - " + this.currentProject.to : ""}]</span>
                 </div>
-
                 {
                     this.currentProject.content.map((content, index) => {
                         return (

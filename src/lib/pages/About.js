@@ -46,6 +46,7 @@ export default class About extends React.Component {
             "LUA",
             "UNREALSCRIPT",
             "UNREAL KISMET",
+            "OPENGL",
             "CRYENGINE FLOWGRAPH",
             "WORDPRESS",
             "ANDROID"
@@ -99,33 +100,25 @@ export default class About extends React.Component {
         return (
             <div className="container">
 
-                <div>
-                    <h2>Viktor Söderström, {this.age.toFixed(0)} years old, game dev,
+                <span className="description-text">Viktor Söderström, {this.age.toFixed(0)} years old, game dev,
                         <span className="text-muted"> full stack programmer and <span className="text-italic">computer enthusiast</span>.</span>
-                    </h2>
-                    <p>
-                        Whether it be software, hardware, website creation, game development or texture manipulation. I am there, learning every bit of it and have been since an early age.I love learning new things and solving problems.
+                </span>
+                <p>
+                    Whether it be software, hardware, website creation, game development or texture manipulation. I am there, learning every bit of it and have been since an early age.I love learning new things and solving problems.
                     </p>
-                    <p>
-                        <h2>More on my <a href="https://www.linkedin.com/in/viktor-s%C3%B6derstr%C3%B6m-6ba02162/" target="linkedin">LinkedIn page</a></h2>
-                        <p>...and code @ <a href="http://www.github.com/florry/" target="linkedin">github.com/florry</a></p>
-                    </p>
-                </div>
-
-                <hr />
+                <div className="description-text">More on my <a href="https://www.linkedin.com/in/viktor-s%C3%B6derstr%C3%B6m-6ba02162/" target="linkedin">LinkedIn page</a></div>
+                <p> ..and code <a href="http://www.github.com/florry/" target="linkedin">github.com/florry</a></p>
 
                 <div className="cv">
 
                     <div className="cv--item cv--contact-details">
-
-                        <h2>PERSONAL INFO</h2>
-                        <p>Name <b>Viktor Söderström</b></p>
-                        <p>Location <b> Stockholm, Sweden</b></p>
-                        <p> E-mail <b>viktor.soderstrom@live.se</b></p>
-                        <p>Date of birth <b>1991-03-21</b></p>
-                        <p>Github account: <b><a href="http://www.github.com/florry/" target="_blank" rel="noopener noreferrer">@florry</a></b></p>
+                        <span className="description-text">PERSONAL INFO</span>
+                        <p>Name <span className="highlight highlight--small">Viktor Söderström</span></p>
+                        <p>Location <span className="highlight highlight--small">Stockholm, Sweden</span></p>
+                        <p>E-mail <span className="highlight highlight--small">viktor.soderstrom@live.se</span></p>
+                        <p>Date of birth <span className="highlight highlight--small">1991-03-21</span></p>
+                        <p>Github account: <span className="highlight highlight--small"><a href="http://www.github.com/florry/" target="_blank" rel="noopener noreferrer">/florry</a></span></p>
                     </div>
-
 
                     <div className="cv--item cv--image">
                         <img src={
@@ -137,10 +130,10 @@ export default class About extends React.Component {
                     </div>
 
                     <div className="cv--item">
-                        <h2>...SOME PROGRAMMING SKILLS</h2>
+                        <span className="description-text">...SOME PROGRAMMING SKILLS</span>
                         <p className="highlight">{this.programmingSkills.join(", ")}</p>
 
-                        <h2>...SOME COMPUTER SOFTWARE SKILLS</h2>
+                        <span className="description-text">...SOME COMPUTER SOFTWARE SKILLS</span>
                         <p className="highlight">{this.computerSoftwareSkills.join(", ")}</p>
                     </div>
 

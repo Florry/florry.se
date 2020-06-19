@@ -20,7 +20,7 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <div className="App">
+            <div>
 
                 <div className="header-bg">
                     <div className="header">
@@ -40,7 +40,7 @@ export default class App extends React.Component {
                     <br />
                     <div className="footer">
 
-                        <a href="mailto:viktor.soderstrom@live.se">viktor.soderstrom@live.se</a> | <a href="http://www.github.com/florry/" target="github" rel="noopener noreferrer">Github</a>
+                        <a href="mailto:viktor.soderstrom@live.se">viktor.soderstrom@live.se | </a><a href="http://www.github.com/florry/" target="github" rel="noopener noreferrer">Github</a>
                     </div>
 
                 </div>

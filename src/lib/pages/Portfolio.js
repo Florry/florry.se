@@ -11,7 +11,7 @@ export default class Portfolio extends React.Component {
                             <span key={index}
                                 className={`image-box ${project.classes ? project.classes.join(" ") : ""}`}
                                 title={project.name}>
-                                <a href={project.link || `/project/${project.id}`} target={project.link ? "_blank" : ""}>
+                                <a href={project.link || `./project/${project.id}`} target={project.link ? "_blank" : ""}>
                                     <span className="project--name">
                                         {project.name}
                                         <br />
