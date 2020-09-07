@@ -21,11 +21,13 @@ ul {
 }
 
 .content a {
-    text-decoration: none;
+    /* text-decoration: none; */
+    text-decoration-color: #dfdedd;
 }
 
 .header a {
     text-decoration: inherit;
+    text-decoration-color: #dfdedd;
 }
 
 a:hover {
@@ -240,12 +242,14 @@ a:hover {
 }
 
 .small-left img {
-    max-width: 588px;
+    /* max-width: 588px; */
+    max-width: 100%;
     /* max-height: 392px; */
 }
 
 .small-right img {
-    max-width: 588px;
+    /* max-width: 588px; */
+    max-width: 100%;
     /* max-height: 392px; */
 }
 
@@ -267,13 +271,13 @@ a:hover {
 }
 
 .big-right img {
-    max-width: 588px;
+    max-width: 100%;
     max-height: 784px;
     margin-top: -2px;
 }
 
 .big-left img {
-    max-width: 588px;
+    max-width: 100%;
     max-height: 784px;
     margin-top: -2px;
 }
