@@ -100,12 +100,12 @@ export default class About extends React.Component {
         return (
             <div className="container">
 
-                <span className="description-text">Viktor Söderström, {this.age.toFixed(0)} years old, game dev,
-                        <span className="text-muted"> full stack programmer and <span className="text-italic">computer enthusiast</span>.</span>
+                <span className="description-text">Viktor Söderström, {Math.floor(this.age).toFixed(0)} years old, game dev,
+                    <span className="text-muted"> full stack programmer and <span className="text-italic">computer enthusiast</span>.</span>
                 </span>
                 <p>
                     Whether it be software, hardware, website creation, game development or texture manipulation. I am there, learning every bit of it and have been since an early age.I love learning new things and solving problems.
-                    </p>
+                </p>
                 <div className="description-text">More on my <a href="https://www.linkedin.com/in/viktor-s%C3%B6derstr%C3%B6m-6ba02162/" target="linkedin">LinkedIn page</a></div>
                 <p> ..and code <a href="http://www.github.com/florry/" target="linkedin">github.com/florry</a></p>
 
